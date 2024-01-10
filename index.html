@@ -1,3 +1,64 @@
-Hello world, garlic is beautiful
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: #fff;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
 
-I am testing to add new things
+    #background-image {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      opacity: 0.5;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    #learn-more-btn {
+      padding: 10px 20px;
+      background-color: #ff8c00;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      font-size: 1em;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    #learn-more-btn:hover {
+      background-color: #e07b00;
+    }
+  </style>
+</head>
+<body>
+  <img id="background-image" src="images/bryam-blanco-c27y-WuwSUA-unsplash.jpg" alt="Background Image">
+  <h1>Garlic</h1>
+  <h2>Why it is the best aromate</h2>
+  <a href="https://en.wikipedia.org/wiki/Garlic#Properties" id="learn-more-btn">Learn More</a>
+</body>
+</html>
